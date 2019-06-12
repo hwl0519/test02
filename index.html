@@ -89,7 +89,7 @@
 		</div>
 		<!-- 遮罩层 -->
 		<section class="mask" id="mask">
-			<iframe src="http://service.bj.10086.cn/m/recharge/showIndex.action?source=MA10086" width="100%" height="90%">
+			<iframe  width="100%" height="90%">
 
 			</iframe>
 		</section>
@@ -140,6 +140,7 @@
 
 			$("#boolean1").click(function() {
 				showMask()
+				$("iframe").attr("src","http://service.bj.10086.cn/m/recharge/showIndex.action?source=MA10086")
 			})
 		</script>
 	</body>
