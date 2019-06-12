@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.div2 table {
+  border: 1px solid #00a0e9;
+  border-radius: 10px;
+  width: 685px;
+  height: 293px;
+  text-align: center;
+  background: -webkit-linear-gradient(#031a67, #041558);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#031a67, #041558);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#031a67, #041558);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(#031a67, #041558);
+  /* 标准的语法 */
+  color: #4cbef9;
+}
+.div2 table tr td:nth-child(1) {
+  color: #fff;
+  border: 0;
+}
+.div2 table tr th {
+  color: #fff;
+}
+.div2 table tr:nth-child(2n) {
+  background: #1a3aa2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 44px;
+  height: 200px;
+  color: #ffffff;
+  background: #000;
+}
+ul li:nth-child(1) {
+  width: 325px;
+}
+ul li:nth-child(1) p:nth-child(1) {
+  font-size: 65px;
+  line-height: 65px;
+}
+ul li:nth-child(1) p:nth-child(2) {
+  padding-left: 13px;
+  font-size: 23px;
+  line-height: 61px;
+}
+ul li:nth-child(1) p:nth-child(2) span {
+  letter-spacing: 3px;
+}
+ul li:nth-child(1) p:nth-child(2) span:nth-child(1) {
+  margin-right: 24px;
+}
+ul li:nth-child(1) p:nth-child(3) {
+  font-size: 23px;
+  padding-left: 13px;
+}
+ul li:nth-child(2) {
+  box-sizing: border-box;
+  width: 385px;
+}
+ul li:nth-child(2) p:nth-child(1) {
+  font-size: 49px;
+}
+ul li:nth-child(2) p:nth-child(2) {
+  font-size: 23px;
+  line-height: 61px;
+}
+ul li:nth-child(2) p:nth-child(2) span:nth-child(1) {
+  margin-right: 24px;
+}
+ul li:nth-child(2) p:nth-child(3) {
+  font-size: 23px;
+  color: #c89a3a;
+  letter-spacing: 3px;
+}
+
+/*# sourceMappingURL=index.css.map */
